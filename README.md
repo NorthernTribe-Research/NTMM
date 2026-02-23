@@ -7,7 +7,7 @@
 [![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![Tests](https://github.com/NorthernTribe-Research/NTMM/workflows/Test/badge.svg)](https://github.com/NorthernTribe-Research/NTMM/actions)
 
-**Enterprise-grade knowledge distillation pipeline for medical AI models**
+**Knowledge distillation pipeline for medical AI models**
 
 [Features](#-key-features) •
 [Quick Start](#-quick-start) •
@@ -270,3 +270,4 @@ NTMM is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for
 [✨ Request Feature](https://github.com/NorthernTribe-Research/NTMM/issues)
 
 </div>
+
