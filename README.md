@@ -35,7 +35,7 @@
 ### Technical Highlights
 
 ```
-Teacher Model (Qwen2-1.5B)  →  Knowledge Distillation  →  NTMM Student (Qwen2-0.5B)
+Teacher Model (Qwen2-1.5B)  →  Knowledge Distillation  →  Student Model (NTMM2-0.5B)
      ~1.5GB, 50ms/inference         Temperature-based           ~500MB, 15ms/inference
      Accuracy: 87%                   Soft Label Transfer         Accuracy: 85%
 ```
@@ -270,6 +270,7 @@ NTMM is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for
 [✨ Request Feature](https://github.com/NorthernTribe-Research/NTMM/issues)
 
 </div>
+
 
 
 
