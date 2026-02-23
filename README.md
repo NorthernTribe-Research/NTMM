@@ -59,15 +59,15 @@ cd NTMM
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| **Multi-Dataset Training** | Merge and train on multiple medical datasets simultaneously | ✅ Production |
-| **Advanced Distillation** | Multi-objective loss: KL divergence + cosine similarity + MSE | ✅ Production |
-| **State-of-the-Art Training** | Warmup, cosine scheduling, label smoothing, gradient clipping | ✅ Production |
-| **Model Optimization** | INT8 quantization (4x smaller) and ONNX export (2-3x faster) | ✅ Production |
-| **Automatic Model Cards** | Generate branded model cards with full training provenance | ✅ Production |
-| **Evaluation Suite** | Comprehensive metrics including accuracy, F1, per-class performance | ✅ Production |
-| **Advanced Training Tools** | Early stopping, learning rate finder, text augmentation | ✅ Production |
-| **Production Deployment** | Docker, FastAPI, AWS SageMaker deployment guides | ✅ Production |
-| **CI/CD Integration** | Automated testing and publishing workflows | ✅ Production |
+| **Multi-Dataset Training** | Merge and train on multiple medical datasets simultaneously | Production |
+| **Advanced Distillation** | Multi-objective loss: KL divergence + cosine similarity + MSE | Production |
+| **State-of-the-Art Training** | Warmup, cosine scheduling, label smoothing, gradient clipping | Production |
+| **Model Optimization** | INT8 quantization (4x smaller) and ONNX export (2-3x faster) | Production |
+| **Automatic Model Cards** | Generate branded model cards with full training provenance | Production |
+| **Evaluation Suite** | Comprehensive metrics including accuracy, F1, per-class performance | Production |
+| **Advanced Training Tools** | Early stopping, learning rate finder, text augmentation | Production |
+| **Production Deployment** | Docker, FastAPI, AWS SageMaker deployment guides | Production |
+| **CI/CD Integration** | Automated testing and publishing workflows | Production |
 
 ### Supported Datasets
 
@@ -270,4 +270,5 @@ NTMM is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for
 [✨ Request Feature](https://github.com/NorthernTribe-Research/NTMM/issues)
 
 </div>
+
 
