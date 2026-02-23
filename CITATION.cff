@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: 'NorthernTribe Medical Models (NTMM)'
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - name: NorthernTribe Research
+repository-code: 'https://github.com/NorthernTribe-Research/NTMM'
+license: MIT
+version: 0.1.0
+date-released: '2025-02-22'
+keywords:
+  - knowledge-distillation
+  - medical-nlp
+  - transformers
+  - pytorch
+  - ntmm

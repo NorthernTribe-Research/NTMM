@@ -1,0 +1,55 @@
+# Environment and build
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Project artifacts
+saved_models/*
+!saved_models/.gitkeep
+data/*.csv
+!data/.gitkeep
+
+# Notebooks (project is script-based only)
+*.ipynb
+.ipynb_checkpoints/
+notebooks/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Logs and cache
+*.log
+.cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Model files (too large for git)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# API keys and secrets
+kaggle.json
+.env
+.env.local
+secrets/

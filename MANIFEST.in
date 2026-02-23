@@ -1,0 +1,40 @@
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include CODE_OF_CONDUCT.md
+include SECURITY.md
+include CITATION.cff
+
+# Include configuration
+include mcp.json
+include requirements.txt
+include pyproject.toml
+
+# Include scripts
+include run_all_steps.sh
+include setup.sh
+
+# Include examples
+recursive-include examples *.py *.md
+
+# Include docs
+recursive-include docs *.md
+
+# Include tests
+recursive-include tests *.py
+
+# Exclude unnecessary files
+global-exclude __pycache__
+global-exclude *.py[cod]
+global-exclude .DS_Store
+global-exclude *.swp
+global-exclude *.swo
+
+# Exclude data and models
+exclude data/*
+exclude saved_models/*
+prune .venv
+prune .pytest_cache
+prune .ruff_cache

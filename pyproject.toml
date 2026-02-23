@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntmm"
+version = "0.1.0"
+description = "NorthernTribe Medical Models - Knowledge distillation pipeline for medical reasoning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "NorthernTribe Research" }
+]
+keywords = ["nlp", "knowledge-distillation", "medical", "ntmm", "transformers", "northerntribe"]
+
+[project.urls]
+Homepage = "https://github.com/NorthernTribe-Research/NTMM"
+Repository = "https://github.com/NorthernTribe-Research/NTMM"
+Issues = "https://github.com/NorthernTribe-Research/NTMM/issues"
+Documentation = "https://github.com/NorthernTribe-Research/NTMM#readme"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.2",
+    "transformers>=4.46",
+    "datasets>=2.14",
+    "pandas>=1.5",
+    "numpy>=1.24",
+    "scikit-learn>=1.2",
+    "accelerate>=0.30",
+    "evaluate>=0.4",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-v"
