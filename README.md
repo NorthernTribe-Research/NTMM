@@ -265,11 +265,12 @@ NTMM is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for
 
 **Built with by NorthernTribe Research**
 
-[⭐ Star us on GitHub](https://github.com/NorthernTribe-Research/NTMM) •
-[🐛 Report Bug](https://github.com/NorthernTribe-Research/NTMM/issues) •
-[✨ Request Feature](https://github.com/NorthernTribe-Research/NTMM/issues)
+[ Star us on GitHub](https://github.com/NorthernTribe-Research/NTMM) •
+[ Report Bug](https://github.com/NorthernTribe-Research/NTMM/issues) •
+[ Request Feature](https://github.com/NorthernTribe-Research/NTMM/issues)
 
 </div>
+
 
 
 
