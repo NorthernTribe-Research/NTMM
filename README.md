@@ -106,7 +106,7 @@ NTMM includes adapters for leading medical datasets:
 - Optional MSE loss (logit matching)
 - Balanced weighting for optimal knowledge transfer
 
-⚡ **Model Optimization**
+**Model Optimization**
 - INT8 quantization: 4x size reduction, 1.9x faster
 - ONNX export: 2-3x faster inference, cross-platform
 - Benchmarking tools for performance profiling
@@ -270,5 +270,6 @@ NTMM is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for
 [✨ Request Feature](https://github.com/NorthernTribe-Research/NTMM/issues)
 
 </div>
+
 
 
