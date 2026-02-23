@@ -27,7 +27,6 @@ notebooks/
 .DS_Store
 *.swp
 *.swo
-.kiro/
 
 # Logs and cache
 *.log
